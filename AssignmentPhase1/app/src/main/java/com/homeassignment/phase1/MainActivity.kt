@@ -66,7 +66,8 @@ fun MainScreen() {
     }
 
 
-    Column(modifier = Modifier.fillMaxSize(),
+    Column(modifier = Modifier.fillMaxSize()
+        .background(colorResource(R.color.color_on_surface)),
     horizontalAlignment = Alignment.CenterHorizontally,
     verticalArrangement = Arrangement.Center) {
 
